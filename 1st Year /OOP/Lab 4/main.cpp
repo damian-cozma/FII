@@ -35,3 +35,5 @@ int main()
 	Sort s5(numere);
 	s5.Print(); s5.QuickSort(); s5.Print();
 }
+
+//Damian Cozma - March 2024
