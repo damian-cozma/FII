@@ -12,4 +12,19 @@ Să se scrie comenzile care realizează următoarele operații cu directoare:
 
 <sub>(Indicație: folosiți comenzile mkdir și mv.)  </sub>
 
+<br> 
+
+**Rezolvare:**
+
+```terminal
+cd ~/
+mkdir programe
+cd programe
+mkdir tema1
+mkdir tema2
+cd tema2
+mkdir sub-temaA
+mv sub-temaA tema2_sub-temaA
+```
+<br>
 <sub>(C): Facultatea de Informatică Iași </sub>
