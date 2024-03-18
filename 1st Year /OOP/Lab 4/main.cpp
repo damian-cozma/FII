@@ -2,6 +2,7 @@
 #include "Sort.h"
 #include <iostream>
 #include <cstring>
+#include <initializer_list>
 
 using namespace std;
 
@@ -13,8 +14,7 @@ int main()
 	cout << endl;
 
 	cout << "#2" << endl;
-	int* vec = new int[11] {1, 4, 3, 2, 5, 8, 6, 9, 10, 7, -1};
-	Sort s2(vec);
+	Sort s2({1, 4, 3, 2, 5, 8, 6, 9, 10, 7});
 	s2.Print(); s2.InsertSort(); s2.Print();
 	cout << endl;
 
