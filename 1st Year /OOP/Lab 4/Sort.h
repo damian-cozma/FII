@@ -1,3 +1,5 @@
+#include <initializer_list>
+
 #pragma once
 class Sort
 {
@@ -8,7 +10,7 @@ class Sort
 
 public:
     Sort(int n, int min, int max);
-    Sort(int* v);
+    Sort(std::initializer_list<int> list);
     Sort(int n, int* v);
     Sort(int n, ...);
     Sort(char* s);
