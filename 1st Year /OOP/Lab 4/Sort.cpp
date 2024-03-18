@@ -4,10 +4,11 @@
 #include <cstdlib>
 #include <cstdarg>
 #include <cstring>
+#include <initializer_list>
 
 using namespace std;
 
-Sort::Sort(int n, int min, int max) //1
+Sort::Sort(int n, int min, int max)
 {
 	this -> size = n;
 	this -> v = new int[size];
@@ -20,20 +21,16 @@ Sort::Sort(int n, int min, int max) //1
 	}
 }
 
-Sort::Sort(int *vec) //2
+Sort::Sort(std::initializer_list<int> list)
 {
-	int c = 0;
-	while (vec[c] >= 0)
-	{
-		c++;
-	}
-
-	this -> size = c;
+	this -> size = list.size();
 	this -> v = new int[size];
-
-	for (int i = 0; i < size; i++)
+	
+	int ct = 0;
+	for (auto x : list)
 	{
-		v[i] = vec[i];
+		v[ct] = x;
+		ct++;
 	}
 }
 
@@ -67,7 +64,7 @@ Sort::Sort(char* s)
 	this -> v = new int[100];
 	char* p = strtok(s, ",");
 	int ct = 0;
-
+	
 	while (p != NULL)
 	{
 		v[ct] = atoi(p);
