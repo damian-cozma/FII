@@ -19,3 +19,5 @@ public:
     int  GetElementsCount();
     int  GetElementFromIndex(int index);
 };
+
+//Damian Cozma - March 2024
