@@ -1,5 +1,6 @@
 **Creare și manipulare fișiere normale**
-- Să se scrie comenzile care realizează următoarele operații cu fișiere:
+
+Să se scrie comenzile care realizează următoarele operații cu fișiere:
 
 i) creează trei fișiere cu numele program1.c, program2.c și program2.h, în directorul ~/programe pe care l-ați creat la exercițiul precedent;
 
@@ -17,7 +18,7 @@ vii) șterge unul dintre cele două nume ale fișierului identificat prin numele
 
 <sub>(Indicație: folosiți comenzile touch, ln, rm, cp și mv.)</sub>
 <br> <br> <br>
-**Rezolvare**
+**Rezolvare:**
 
 ```terminal
 cd ~/programe
@@ -31,5 +32,5 @@ ln sub-temaA1.c tema2_sub-temaA1.c
 ln -s sub-temaA2.cpp tema2_sub-temaA2.cpp
 ```
 
-<br> <br>
+<br>
 <sub>(C): Facultatea de Informatică Iași</sub>
