@@ -24,22 +24,22 @@ Să se scrie comenzile care realizează următoarele operații cu fișiere:
 **Rezolvare:**
 
 ```terminal
-cd ~/programe
+cd ~/programe/
 touch program1.c program2.c program2.h
-cd tema1
+cd tema1/
 touch tema1-1.c tema1-2.c
 cd ../
-cd tema2/tema2_sub-temaA
+cd tema2/tema2_sub-temaA/
 touch sub-temaA1.c sub-temaA2.cpp
 ln sub-temaA1.c tema2_sub-temaA1.c
 ln -s sub-temaA2.cpp tema2_sub-temaA2.cpp
-cd ~/programe/tema1
+cd ~/programe/tema1/
 cp tema1-1.c ~/programe/tema2/
-cd ~/programe/tema2
+cd ~/programe/tema2/
 mv tema1-1.c tema2-1.c
-cd ~/programe/tema1
+cd ~/programe/tema1/
 mv tema1-2.c ~/programe/tema2/
-cd ~/programe/tema2
+cd ~/programe/tema2/
 mv tema1-2.c tema2-2.c
 cd tema2_sub-temaA/
 rm sub-temaA1.c
