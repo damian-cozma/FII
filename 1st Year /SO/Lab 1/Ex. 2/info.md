@@ -45,7 +45,7 @@ cd tema2_sub-temaA/
 rm sub-temaA1.c
 
 
-// Damian Cozma - March 2024
+echo Damian Cozma - March 2024
 ```
 
 <br>
