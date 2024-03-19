@@ -20,12 +20,12 @@ Să se scrie comenzile care realizează următoarele operații cu directoare:
 **Rezolvare:**
 
 ```terminal
-cd ~
+cd ~/
 mkdir programe
-cd programe
+cd programe/
 mkdir tema1
 mkdir tema2
-cd tema2
+cd tema2/
 mkdir sub-temaA
 mv sub-temaA tema2_sub-temaA
 
