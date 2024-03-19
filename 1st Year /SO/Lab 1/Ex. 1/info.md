@@ -17,7 +17,7 @@ Să se scrie comenzile care realizează următoarele operații cu directoare:
 **Rezolvare:**
 
 ```terminal
-cd ~/
+cd ~
 mkdir programe
 cd programe
 mkdir tema1
