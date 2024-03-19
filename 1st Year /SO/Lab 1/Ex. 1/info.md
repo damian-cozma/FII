@@ -1,4 +1,7 @@
 **Creare și manipulare directoare**
+<br>
+<br>
+
 
 Să se scrie comenzile care realizează următoarele operații cu directoare:
 
@@ -25,6 +28,9 @@ mkdir tema2
 cd tema2
 mkdir sub-temaA
 mv sub-temaA tema2_sub-temaA
+
+
+echo Damian Cozma - March 2024
 ```
 <br>
 <sub>(C): Facultatea de Informatică Iași </sub>
