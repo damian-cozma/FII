@@ -6,6 +6,7 @@
 **[find #4]** (max 0.25p)
 
 Să se scrie comanda ce afișează toate fișierele de tip normal găsite începând din directorul dat ca argument în linia de comandă, parcurs recursiv, pentru care proprietarul fișierului are drepturi de scriere ȘI de execuție asupra sa, precum și data+ora ultimei accesări a fișierului și dimensiunea sa în bytes.
+
 <sub>(Indicație: folosiți comanda find.) </sub>
 
 <br> 
