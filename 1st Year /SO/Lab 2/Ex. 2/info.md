@@ -14,8 +14,7 @@ Să se scrie comanda ce afișează toate fișierele de tip normal (i.e., fișier
 **Rezolvare:**
 
 ```terminal
-find ~/ -type f -executable -writable -exec stat --format="%s %y %n" {} \;
-
+find ~/ -type f -mtime -14 -exec ls -l {} \;
 
 echo Damian Cozma - March 2024
 ```
