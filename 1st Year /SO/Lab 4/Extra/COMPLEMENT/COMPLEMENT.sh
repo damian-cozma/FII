@@ -25,3 +25,5 @@ else
     read -p "N: " a
     echo $(complement $a 0)
 fi
+
+echo "Damian Cozma - March 2024"
