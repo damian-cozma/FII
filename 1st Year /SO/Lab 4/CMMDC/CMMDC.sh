@@ -22,4 +22,4 @@ else
     echo "CMMDC pentru $a si $b este: $CMMDC"
 fi
 
-echo Damian Cozma - March 2024
+#Damian Cozma - March 2024
