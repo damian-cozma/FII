@@ -11,5 +11,5 @@ Să se scrie un script care primește o valoare n ca parametru de intrare (verif
 
 **Exemplul #2**: n=349 --> rezultat: 56, deoarece 9-9=0, 9-4=5, 9-3=6.
 
-<br>
+<br> <br>
 <sub>(C): Facultatea de Informatică Iași </sub>
