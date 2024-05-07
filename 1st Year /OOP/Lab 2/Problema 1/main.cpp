@@ -1,4 +1,4 @@
-#include "header.h"
+#include "Numbers.h"
 #include <cstdio>
 #include <iostream>
 
@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    header obj;
+    Numbers obj;
 
     obj.Init();
     obj.Add(1);
