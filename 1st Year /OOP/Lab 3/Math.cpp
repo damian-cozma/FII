@@ -2,7 +2,6 @@
 #include "Math.h"
 #include <iostream>
 #include <cstdarg>
-#include <cstring>
 
 int Math::Add(int a, int b)
 {
@@ -61,7 +60,44 @@ int Math::Add(int count, ...)
 	return s;
 }
 
-char* Math::Add(const char* a, const char* b)
+char *Math::Add(const char * a, const char * b) {
+    if (a == nullptr || b == nullptr)
+        return nullptr;
+
+    int i = 0, j = 0;
+
+    while (a[i] != '\0')
+    {
+        i++;
+    }
+
+    while (b[j] != '\0')
+    {
+        j++;
+    }
+
+    char* s = new char[i+j+1];
+
+    i = j = 0;
+    int aux = 0;
+
+    while (a[i] != '\0')
+    {
+        s[aux++] = a[i++];
+    }
+
+    s[aux++] = ' ';
+
+    while (b[j] != '\0')
+    {
+        s[aux++] = b[j++];
+    }
+
+    return s;
+
+}
+
+/*char* Math::Add(const char* a, const char* b)
 {
 	if (a == nullptr || b == nullptr)
 	{
@@ -72,6 +108,6 @@ char* Math::Add(const char* a, const char* b)
 	strcpy(s, a);
 	strcat(s, b);
 	return s;
-}
+}*/ //USING CSTRING
 
 //Damian Cozma - March 2024
