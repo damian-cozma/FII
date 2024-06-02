@@ -45,17 +45,19 @@ vector<Animal *> Zoo::GetMammals() {
 }
 
 vector<Feline *> Zoo::GetFelines() {
-    vector<Feline*> toReturn;
+    int i;
+    vector<Feline*> felines;
 
-    for (auto i: animals)
+    for (auto i : animals)
     {
-        if (i->GetName() == "Lion" or i->GetName() == "Tiger")
-        {
-            toReturn.push_back((Feline*)i);
+        Feline* feline = dynamic_cast<Feline*>(i);
+
+        if (feline != nullptr) {
+            felines.push_back(feline);
         }
     }
 
-    return toReturn;
+    return felines;
 }
 
 int Zoo::GetTotalAnimals() {
