@@ -1,31 +1,40 @@
-//UNFINISHED
-
-#define _CRT_SECURE_NO_WARNINGS
 #pragma once
+
 class Number
 {
-	char *value;
-	int base;
-	int decimal;
+    int base, decimal;
+    char * value;
 public:
-	Number(const char* value, int base);
-	Number(const int nr); 
-	~Number();
+    Number(const char * value, int base); // where base is between 2 and 16
+    Number(const char * value);
+    Number(int value);
+    ~Number();
 
-	int operator[](int index);
-	void operator=(const Number& A);
-	void operator=(const int nr);
+    char operator[](int index);
+    Number(const Number &n);
+    Number(Number &&n);
+    Number& operator=(Number &&n);
+    Number& operator=(const Number &n);
+    Number operator+(Number &n);
+    Number operator-(Number &n);
 
-	friend Number operator+(const Number& A, const Number& B);
-	friend Number operator-(const Number& A, const Number& B);
-	friend Number operator+=(const Number& A, const Number& B);
+    //all operators
+    bool operator>(Number &n);
+    bool operator<(Number &n);
+    bool operator>=(Number &n);
+    bool operator<=(Number &n);
+    bool operator==(Number &n);
+    bool operator!=(Number &n);
 
-	bool operator>(const Number& A);
+    Number& operator--();
+    Number operator--(int);
+    Number& operator+=(Number &n);
+    Number& operator-=(Number &n);
 
-	void SwitchBase(int newBase);
-	void Print();
-	int  GetDigitsCount(); 
-	int  GetBase(); 
+    void SwitchBase(int newBase);
+    void Print();
+    int  GetDigitsCount(); // returns the number of digits for the current number
+    int  GetBase(); // returns the current base
 };
 
 // Damian Cozma - March 2024
