@@ -10,8 +10,16 @@ Acest repo conține câteva dintre materialele din anul 1 la Facultatea de Infor
 - Exerciții de laborator pentru Programare Orientată pe Obiecte (OOP)
 
 Această colecție nu este completă. Totuși, materialele disponibile aici sunt de încredere.
+<br>
 
 ## Recomandare
 
 Recomand folosirea acestor materiale pentru a învăța și a înțelege mai bine conceptele predate. Nu este recomandată copierea acestora.
 
+## Licență
+
+Acest proiect este licențiat sub Licența MIT. Vezi fișierul [LICENSE](LICENSE).
+
+---
+
+Studii plăcute și mult succes în primul an! 🎓✨
