@@ -18,7 +18,7 @@ Recomand folosirea acestor materiale pentru a învăța și a înțelege mai bin
 
 ## Licență
 
-Acest proiect este licențiat sub Licența MIT. Vezi fișierul [LICENSE](https://github.com/DamianCozma/FII/LICENSE).
+Acest proiect este licențiat sub Licența MIT. Vezi fișierul [LICENSE](https://github.com/DamianCozma/FII/blob/main/LICENSE).
 
 ---
 
