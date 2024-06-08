@@ -14,7 +14,7 @@ Această colecție nu este completă. Totuși, materialele disponibile aici sunt
 
 ## Recomandare
 
-Recomand folosirea acestor materiale pentru a învăța și a înțelege mai bine conceptele predate. Nu este recomandată copierea acestora.
+Recomand folosirea acestor materiale pentru a învăța și a înțelege mai bine conceptele predate. Nu recomand copierea fără asimilarea informației.
 
 ## Licență
 
