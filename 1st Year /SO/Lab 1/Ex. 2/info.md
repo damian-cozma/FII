@@ -43,9 +43,6 @@ cd ~/programe/tema2/
 mv tema1-2.c tema2-2.c
 cd tema2_sub-temaA/
 rm sub-temaA1.c
-
-
-echo Damian Cozma - March 2024
 ```
 
 <br>
