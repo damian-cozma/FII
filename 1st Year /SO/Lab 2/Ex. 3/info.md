@@ -15,9 +15,6 @@ Să se scrie comanda ce afișează toate fișierele de tip normal găsite încep
 
 ```terminal
 find ~/ -type f -executable -writable -exec stat --format="%s %y %n" {} \;
-
-
-echo Damian Cozma - March 2024
 ```
 <br>
 <sub>(C): Facultatea de Informatică Iași </sub>
