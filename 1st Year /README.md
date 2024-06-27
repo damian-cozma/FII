@@ -16,6 +16,6 @@ Nu este complet, dar asigur încrederea materialelor postate.
 
 Recomand folosirea acestor materiale pentru a învăța și a înțelege mai bine conceptele predate. Nu recomand copierea fără asimilarea informației.
 
----
+##
 
 Studii plăcute și mult succes în primul an! 🎓✨
