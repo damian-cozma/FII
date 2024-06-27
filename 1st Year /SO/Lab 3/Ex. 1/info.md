@@ -15,9 +15,6 @@ Să se scrie comanda înlănțuită care scrie în fișierul max15.txt, doar use
 
 ```terminal
 cut -d: f1 /etc/passwd | head -n 15 | grep -e [m-z]$ > max15.txt
-
-
-echo Damian Cozma - March 2024
 ```
 <br>
 <sub>(C): Facultatea de Informatică Iași </sub>
