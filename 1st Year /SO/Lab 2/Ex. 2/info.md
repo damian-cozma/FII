@@ -15,8 +15,6 @@ Să se scrie comanda ce afișează toate fișierele de tip normal (i.e., fișier
 
 ```terminal
 find ~/ -type f -mtime -14 -exec ls -l {} \;
-
-echo Damian Cozma - March 2024
 ```
 <br>
 <sub>(C): Facultatea de Informatică Iași </sub>
