@@ -15,9 +15,6 @@ Să se scrie comanda înlănțuită care afișează, în fișierul CMDs.txt, toa
 
 ```terminal
 ps aux | grep 'init' | grep 'root' | tr -s " " | cut -d" " -f11 > CMDs.txt
-
-
-echo Damian Cozma - March 2024
 ```
 <br>
 <sub>(C): Facultatea de Informatică Iași </sub>
