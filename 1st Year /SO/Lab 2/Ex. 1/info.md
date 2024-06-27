@@ -15,9 +15,6 @@ Să se scrie comanda ce afișează câte linii de text conține fișierul /etc/m
 
 ```terminal
 wc -l -L /etc/mtab
-
-
-echo Damian Cozma - March 2024
 ```
 <br>
 <sub>(C): Facultatea de Informatică Iași </sub>
