@@ -19,9 +19,6 @@ last | grep 'still running' | cut -d" " -f11 | sort -n | head -12 >> FirstLogins
 OR
 
 last | grep 'still running' | awk '{print $8}' | sort -n | head -12 >> FirstLogins.txt
-
-
-echo Damian Cozma - March 2024
 ```
 <br>
 <sub>(C): Facultatea de Informatică Iași </sub>
