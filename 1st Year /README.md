@@ -16,10 +16,6 @@ Nu este complet, dar asigur încrederea materialelor postate.
 
 Recomand folosirea acestor materiale pentru a învăța și a înțelege mai bine conceptele predate. Nu recomand copierea fără asimilarea informației.
 
-## Licență
-
-Acest proiect este licențiat sub Licența MIT. Vezi fișierul [LICENSE](https://github.com/DamianCozma/FII/blob/main/LICENSE).
-
 ---
 
 Studii plăcute și mult succes în primul an! 🎓✨
