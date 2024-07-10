@@ -8,13 +8,12 @@ Acest repo conține câteva dintre materialele din anul 1 la Facultatea de Infor
 
 - Exerciții de laborator pentru Sisteme de Operare
 - Exerciții de laborator pentru Programare Orientată pe Obiecte (OOP)
-
-Nu este complet, dar asigur încrederea materialelor postate.
+  
 <br>
 
 ## Recomandare
 
-Recomand folosirea acestor materiale pentru a învăța și a înțelege mai bine conceptele predate. Nu recomand copierea fără asimilarea informației.
+Recomand folosirea acestor materiale pentru a învăța și a înțelege mai bine conceptele predate. Nu recomand copy-pasting-ul fără asimilarea informației.
 
 ##
 
