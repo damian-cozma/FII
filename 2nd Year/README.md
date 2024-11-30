@@ -5,7 +5,7 @@ Acest repo conține câteva dintre materialele din anul 2 la Facultatea de Infor
 
 În acest repository vei găsi:
 
-- TO BE DONE ...
+- Exerciții de laborator pentru Baze de Date (BD)
   
 <br>
 
