@@ -13,14 +13,21 @@ JOIN profesori p ON p.id_prof = d.id_prof;
 
 **Soluție:**
 ```sql
-
+SELECT s.nume, s.prenume
+FROM studenti s
+JOIN note n ON s.nr_matricol = n.nr_matricol
+JOIN cursuri c ON c.id_curs = n.id_curs
+WHERE c.titlu_curs LIKE 'BD' AND n.valoare = 10;
 ```
 ---
 **3. Afisaţi profesorii (numele şi prenumele) impreuna cu cursurile pe care fiecare le ţine.**
 
 **Soluție:**
 ```sql
-
+SELECT p.nume, p.prenume, c.titlu_curs
+FROM profesori p
+JOIN didactic d ON d.id_prof = p.id_prof
+JOIN cursuri c ON c.id_curs = d.id_curs;
 ```
 ---
 **4. Modificaţi interogarea de la punctul 3 pentru a fi afişaţi şi acei profesori care nu au încă alocat un curs.**
