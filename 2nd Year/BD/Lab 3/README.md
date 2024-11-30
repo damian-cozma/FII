@@ -52,7 +52,8 @@ WHERE nume LIKE 'B%';
 
 **Soluție:**
 ```sql
-
+SELECT nume, data_nastere, ADD_MONTHS(data_nastere, 12*(TRUNC(MONTHS_BETWEEN(sysdate, data_nastere)/12)+1)) AS MONTH, NEXT_DAY(ADD_MONTHS(data_nastere, 12*(TRUNC(MONTHS_BETWEEN(sysdate, data_nastere)/12)+1)),'SUNDAY') AS NEXT
+FROM studenti;
 ```
 ---
 **8. Ordonați studenții care nu iau bursă în funcție de luna cand au fost născuți; se va afișa doar numele, prenumele și luna corespunzătoare datei de naștere.**
@@ -85,19 +86,23 @@ FROM studenti;
 
 **Soluție:**
 ```sql
-
+SELECT nume, data_nastere, TO_CHAR(TRUNC(MONTHS_BETWEEN(sysdate, data_nastere)/12)) || 'ani '|| TO_CHAR(TRUNC(MONTHS_BETWEEN(sysdate, ADD_MONTHS(data_nastere, TRUNC(months_between(sysdate, data_nastere)/12)*12)))) || 'luni ' || TRUNC(sysdate-ADD_MONTHS(data_nastere, TRUNC(MONTHS_BETWEEN(sysdate, data_nastere)))) || 'zile' AS "ani luni si zile", ADD_MONTHS(data_nastere, 12*(TRUNC(MONTHS_BETWEEN(sysdate, data_nastere)/12)+1))-sysdate AS "zile ramase"
+FROM studenti;
 ```
 ---
 **12. Presupunând că în următoarea lună bursa de 450 RON se mărește cu 10%, cea de 350 RON cu 15% și cea de 250 RON cu 20%, afișați pentru fiecare student numele acestuia, data corespunzătoare primei zile din luna urmatoare și valoarea bursei pe care o va încasa luna următoare. Pentru cei care nu iau bursa, se va afisa valoarea 0.**
 
 **Soluție:**
 ```sql
-
+SELECT nume, TRUNC(ADD_MONTHS(SYSDATE, 1), 'MONTH') AS LUNA, DECODE(bursa, 450, bursa * 1.10, 350, bursa * 1.15, 250, bursa * 1.2, 0) AS BURSE
+FROM studenti;
 ```
 ---
 **13. Pentru studentii bursieri (doar pentru ei) afisati numele studentului si bursa in stelute: fiecare steluta valoreaza 50 RON. In tabel, alineati stelutele la dreapta.**
 
 **Soluție:**
 ```sql
-
+SELECT nume, LPAD((RPAD('*', bursa/50, '*')), 10, ' ') 
+FROM studenti
+WHERE bursa IS NOT NULL;
 ```
