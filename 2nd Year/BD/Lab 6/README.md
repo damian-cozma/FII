@@ -185,7 +185,7 @@ HAVING AVG(valoare) IS NOT NULL
 ORDER BY AVG(valoare) DESC;
 ```
 ---
-**19. Afisati numarul de restantieri generati de FIECARE profesor (tip: 1 cu 2 restantieri, 4 cu 1 restantier, 11 cu 0 restantieri) **
+**19. Afisati numarul de restantieri generati de FIECARE profesor (tip: 1 cu 2 restantieri, 4 cu 1 restantier, 11 cu 0 restantieri)**
 
 **Soluție:**
 ```sql
