@@ -175,7 +175,14 @@ GROUP BY valoare;
 
 **Soluție:**
 ```sql
-
+SELECT nume, prenume, AVG(n.valoare)
+FROM profesori p
+LEFT JOIN didactic d ON p.id_prof = d.id_prof
+LEFT JOIN cursuri c ON c.id_curs = d.id_curs
+LEFT JOIN note n ON c.id_curs = n.id_curs
+GROUP BY nume, prenume
+HAVING AVG(valoare) IS NOT NULL
+ORDER BY AVG(valoare) DESC;
 ```
 ---
 **19. Afisati numarul de restantieri generati de FIECARE profesor (tip: 1 cu 2 restantieri, 4 cu 1 restantier, 11 cu 0 restantieri) **
