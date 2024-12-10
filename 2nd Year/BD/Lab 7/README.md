@@ -100,10 +100,11 @@ WHERE rn=3);
 
 **Soluție:**
 ```sql
-SELECT nume, prenume, valoare, titlu_curs 
-FROM studenti 
-JOIN note ON studenti.nr_matricol = note.nr_matricol 
-JOIN cursuri ON note.id_curs = cursuri.id_curs 
-WHERE (note.id_curs, valoare) IN (select id_curs, max(valoare) FROM note GROUP BU id_curs);
+SELECT nume, prenume, valoare, titlu_curs
+FROM studenti s
+LEFT JOIN note n ON s.nr_matricol = n.nr_matricol
+LEFT JOIN cursuri c ON n.id_curs = c.id_curs
+WHERE (valoare, titlu_curs) IN
+(SELECT MAX(valoare), titlu_curs FROM note n LEFT JOIN cursuri c ON n.id_curs = c.id_curs GROUP BY titlu_curs);
 ```
 ---
