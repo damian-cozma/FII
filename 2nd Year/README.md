@@ -1,6 +1,6 @@
 # 📚 Materiale Anul 2 - Facultatea de Informatică, Iași
 
-Acest repo conține câteva dintre materialele din anul 2 la Facultatea de Informatică din Iași.
+Acest repo conține câteva dintre materialele realizate de mine în anul 2 la Facultatea de Informatică din Iași.
 ## Conținut
 
 În acest repository vei găsi:
