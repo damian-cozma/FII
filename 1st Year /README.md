@@ -1,6 +1,6 @@
 # 📚 Materiale Anul 1 - Facultatea de Informatică, Iași
 
-Acest repo conține câteva dintre materialele din anul 1 la Facultatea de Informatică din Iași, pentru cursurile de Sisteme de Operare și Programare Orientată pe Obiecte (OOP). 
+Acest repo conține câteva dintre materialele realizate de mine în anul 1 la Facultatea de Informatică din Iași, pentru cursurile de Sisteme de Operare și Programare Orientată pe Obiecte (OOP). 
 
 ## Conținut
 
